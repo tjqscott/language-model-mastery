@@ -6,7 +6,7 @@
 
 ---
 
-### 01 · [Transformers](./1-transformers/)
+### 01 · [Transformers](./1-transformers/index.md)
 *Start with Alammar. Then Vaswani. The architecture, positional encoding, and memory efficiency decisions from 2017–2022 that nobody has meaningfully displaced.*
 
 | Paper | Authors | Year | Status |
@@ -19,7 +19,7 @@
 
 ---
 
-### 02a · [Data Scaling](./2a-data-scaling/)
+### 02a · [Data Scaling](./2a-data-scaling/index.md)
 *Kaplan said scale the parameters. Chinchilla said scale the tokens. LLaMA proved you could do both on a budget. A single argument that ran from 2020 to 2023 and rewrote how everyone trains models.*
 
 | Paper | Authors | Year | Status |
@@ -32,7 +32,7 @@
 
 ---
 
-### 02b · [Sparsity Scaling](./2b-sparsity-scaling/)
+### 02b · [Sparsity Scaling](./2b-sparsity-scaling/index.md)
 *A different lever entirely. MoE decouples parameter count from inference cost — bigger model, same compute. Shazeer planted the idea in 2017. By 2024 it was the architecture behind most frontier models.*
 
 | Paper | Authors | Year | Status |
@@ -46,7 +46,7 @@
 
 ---
 
-### 03 · [Post-Training](./3-post-training/)
+### 03 · [Post-Training](./3-post-training/index.md)
 *Pretraining gives you a model that predicts text. These three papers cover what it took to turn that into something that follows instructions, reflects preferences, and reasons under its own initiative.*
 
 | Paper | Authors | Year | Status |
@@ -57,7 +57,7 @@
 
 ---
 
-### 04 · [Inference](./4-inference/)
+### 04 · [Inference](./4-inference/index.md)
 *What you can get out of a model without touching the weights. GPT-3 established prompting as a capability unlock. CoT showed reasoning could be elicited, not just trained. ReAct handed models tools. RAG gave them memory.*
 
 | Paper | Authors | Year | Status |
@@ -69,7 +69,7 @@
 
 ---
 
-### 05 · [Internals](./5-internals/)
+### 05 · [Internals](./5-internals/index.md)
 *Monosemanticity decomposes a model into millions of readable features. The Platonic Representation Hypothesis asks whether all large models are converging on the same internal picture of the world. The Smol Training Playbook closes the loop — now go build one.*
 
 | Paper | Authors | Year | Status |
