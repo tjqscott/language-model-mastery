@@ -80,9 +80,6 @@
 
 ---
 
-| ⬜ Not started | 🔄 In progress | ✅ Notes complete | 🔗 Synthesised |
-|---|---|---|---|
-
 ---
 
 *Built on [@TheAhmadOsman](https://x.com/TheAhmadOsman)'s original list. Maintained by [Taylor Scott](https://tjqscott.com).*
