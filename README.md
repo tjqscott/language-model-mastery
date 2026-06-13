@@ -7,7 +7,7 @@
 ---
 
 ### 01 · [Transformers](./1-transformers/index.md)
-*Start with Alammar. Then Vaswani. The architecture, positional encoding, and memory efficiency decisions from 2017–2022 that nobody has meaningfully displaced.*
+*The architecture, positional encoding, and memory efficiency decisions from 2017 to 2022 that the field is still built on.*
 
 | Paper | Authors | Year | Status |
 |---|---|---|---|
@@ -20,7 +20,7 @@
 ---
 
 ### 02a · [Data Scaling](./2a-data-scaling/index.md)
-*Kaplan said scale the parameters. Chinchilla said scale the tokens. LLaMA proved you could do both on a budget. A single argument that ran from 2020 to 2023 and rewrote how everyone trains models.*
+*How much does scale actually buy you, and what are you scaling? These papers worked through that question from 2020 to 2023, moving from parameter count to token count to data quality, and changed how most teams train models.*
 
 | Paper | Authors | Year | Status |
 |---|---|---|---|
@@ -33,7 +33,7 @@
 ---
 
 ### 02b · [Sparsity Scaling](./2b-sparsity-scaling/index.md)
-*A different lever entirely. MoE decouples parameter count from inference cost — bigger model, same compute. Shazeer planted the idea in 2017. By 2024 it was the architecture behind most frontier models.*
+*Mixture-of-experts decouples parameter count from inference cost: a bigger model that activates only part of itself per token. Shazeer introduced the idea in 2017. By 2024 it was the architecture behind most frontier models.*
 
 | Paper | Authors | Year | Status |
 |---|---|---|---|
@@ -47,7 +47,7 @@
 ---
 
 ### 03 · [Post-Training](./3-post-training/index.md)
-*Pretraining gives you a model that predicts text. These three papers cover what it took to turn that into something that follows instructions, reflects preferences, and reasons under its own initiative.*
+*Pretraining gives you a next-token predictor. Post-training turns it into something that follows instructions, reflects preferences, and reasons. Three papers, three distinct approaches.*
 
 | Paper | Authors | Year | Status |
 |---|---|---|---|
@@ -58,7 +58,7 @@
 ---
 
 ### 04 · [Inference](./4-inference/index.md)
-*What you can get out of a model without touching the weights. GPT-3 established prompting as a capability unlock. CoT showed reasoning could be elicited, not just trained. ReAct handed models tools. RAG gave them memory.*
+*What you can extract from a model without retraining it. These papers cover prompting, chain-of-thought reasoning, tool use, and retrieval-augmented generation.*
 
 | Paper | Authors | Year | Status |
 |---|---|---|---|
@@ -70,7 +70,7 @@
 ---
 
 ### 05 · [Internals](./5-internals/index.md)
-*Monosemanticity decomposes a model into millions of readable features. The Platonic Representation Hypothesis asks whether all large models are converging on the same internal picture of the world. The Smol Training Playbook closes the loop — now go build one.*
+*What's actually happening inside. Monosemanticity decomposes a model into readable features. The Platonic Representation Hypothesis asks whether all large models are converging on the same internal world model. The Smol Training Playbook closes with how to build one yourself.*
 
 | Paper | Authors | Year | Status |
 |---|---|---|---|
